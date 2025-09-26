@@ -1,8 +1,8 @@
 <?php
-session_start();
-if (!isset($_SESSION['login'])) {
-  header("Location: login.php");
-}
+// session_start();
+// if (!isset($_SESSION['login'])) {
+//   header("Location: login.php");
+// }
 ?>
 
 <!DOCTYPE html>
@@ -139,7 +139,7 @@ if (!isset($_SESSION['login'])) {
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Rafa Khadafi</span>
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Aditya Saputra</span>
                 <img class="img-profile rounded-circle" src="assets/img/undraw_profile.svg">
               </a>
               <!-- Dropdown - User Information -->

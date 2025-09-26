@@ -2,13 +2,13 @@
 require_once('function.php');
 include_once('templates/header.php');
 
-if($_SESSION['role'] != 'admin'){
-  echo "<script>
-          alert('Anda tidak memiliki akses ke halaman ini!');
-          window.location.href = 'index.php';
-        </script>";
-  exit;
-}
+// if($_SESSION['role'] != 'admin'){
+//   echo "<script>
+//           alert('Anda tidak memiliki akses ke halaman ini!');
+//           window.location.href = 'index.php';
+//         </script>";
+//   exit;
+// }
 ?>
 
 <?php
